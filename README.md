@@ -3,7 +3,7 @@
 依赖js-icookie，api基本一致； 
 还未经严密测试，发现bug请及时联系280441190@qq.com
 
-##源码
+## 源码
 
 把js-icookie挂在了Vue和Vue.prototype上面；Vue构造函数上面有js-icookie的所有方法，可使用Vue.iCookie.config，Vue.iCookie.set，Vue.iCookie.get，Vue.iCookie.remove；Vue实例上面只有get、set、remove；this.$iCookie.set，this.$iCookie.get，this.$iCookie.remove；
 
